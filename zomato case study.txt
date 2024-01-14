@@ -1,0 +1,59 @@
+Questions 
+
+Certainly! Here are some questions related to the provided SQL queries:
+
+Basic Aggregation and Counting:
+
+How many orders are there in the dataset?
+Sampling and Random Ordering:
+
+Provide a replicated sample similar to the pandas function df.sample(n=5, random_state=1) from the order_details table.
+Handling NULL Values:
+
+Identify and list orders where the restaurant_rating is null.
+After replacing NULL values in the restaurant_rating column with 0, how many such replacements were made?
+Customer Order Statistics:
+
+What is the number of orders placed by each customer? Display the user ID, user name, and the count of orders.
+Restaurant with Most Menu Items:
+
+Find the restaurant with the highest number of menu items. Display the restaurant ID, name, and the count of menu items.
+Restaurant Votes and Ratings:
+
+Provide the count of votes and the average rating for each restaurant.
+Food Item Sold at Most Restaurants:
+
+Determine the food item that is sold at the most number of restaurants. Display the food ID, name, and the quantity sold.
+Monthly Revenue for a Restaurant:
+
+What is the restaurant with the maximum revenue in the month of May? Display the restaurant name and total revenue.
+Filtering Restaurants with Sales > 1500:
+
+List the names of restaurants with total sales greater than 1500.
+Monthly Revenue Trend for KFC:
+
+Display the month-on-month revenue trend for the restaurant 'KFC.'
+Customers Who Never Ordered:
+
+Provide a list of customers who have never placed an order.
+Order Details for a Specific Customer in a Date Range:
+
+Show the order details for the customer 'Nitish' between May 1, 2022, and June 1, 2022.
+Customer's Favorite Food:
+
+Determine each customer's favorite food based on the number of orders.
+Most Costly Restaurants (Avg Price/Dish):
+
+Identify the restaurant with the highest average price per dish.
+Delivery Partner Compensation Calculation:
+
+Calculate the salary for each delivery partner using the formula (# deliveries * 100 + 1000 * avg rating).
+Revenue per Month for a Restaurant:
+
+Display the revenue per month for a specific restaurant (e.g., restaurant with ID=2).
+Veg-Only Restaurants:
+
+List the names of restaurants that only serve vegetarian food.
+Order Value Statistics for Customers:
+
+Find the minimum, maximum, and average order value for each customer. Display the customer name along with these statistics.
